@@ -1,0 +1,518 @@
+@media(max-width:1200px) {
+.wrapper {
+    max-width: 991px;
+    margin: 0 auto;
+}
+header {
+    width: 100%;
+    padding:0px 45px;
+    justify-content: space-between;
+}
+
+}
+@media(max-width:1024px) {
+    .header {
+        display: flex;
+        margin: auto;
+    }
+    .wrapper{
+        margin: 0 auto;
+        max-width: 900px;
+    }
+    .nav {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .logo a {
+        font-size: 20px;
+    }
+    .menu {
+        padding-left: 0;
+    }
+    .menu ul li {
+        display: inline-block;
+        padding: 0 30px;
+    }
+    .menu ul li a {
+        font-size: 20px;
+        font-weight: 200;
+    }
+    .banner{
+        width: 100%;
+        padding: 25px;
+    }
+    .banner .text h1 {
+        font-size: 47px;
+    }
+    .banner .text p {
+        font-size: 23px;
+    }
+    .banner .text button {
+        font-size: 16px;
+        padding: 8px 28px;
+        background-color: transparent;
+        margin-top: 21px;
+    }
+    .banner .img {
+        width: 50%;
+    }
+    .features .f_content {
+        display: flex;
+        flex-wrap: wrap; 
+    }
+    .f_text h1 {
+        font-size: 50px;
+    }
+    .explore .internal .display-1 h2 {
+        font-size: 45px;
+    }
+    .banner2 .text p {
+        font-size: 20px;
+    }
+    .banner2{
+        width: 100%;
+        padding: 25px;
+    }
+    .banner2 .icon strong {
+        font-size: 23px;
+    }
+    .info h4 {
+        font-size: 50px;
+    }
+    .details_sec .details {
+        font-size: 20.8px;
+        padding:32p;
+    }
+    /* .copyright .form{
+        width: 50%;
+        padding: 0 100px;
+    } */
+}
+/* ----------360----------- */
+@media(max-width:360px) {
+    
+    .logo a {
+        font-size: 20px;
+        /* padding-left: 12px; */
+    }
+    .wrapper {
+        margin: 0 auto;
+        max-width: 300px;
+        width: 100%;
+    }
+    .menu ul li {
+        display: block;
+        padding: 0 20px;
+    }
+    .headerMain {
+        width: 100%;
+        text-align: center;
+    }
+    .menu ul{
+        position: fixed;
+        width: 100%;
+        top: 40px;
+        right: 0;
+        background: #082c4e;
+        padding: 30px 0;
+        display: none;
+      }
+      .menu.active ul{
+        display: block;
+    }
+    .toggle-menu{
+        display: block;
+    }
+    /* .toggle-menu:before {
+        content: "\f14e";
+        font-family: "Font Awesome 6 Free";
+    }
+      .toggle-menu.active:before {
+        content: "\f0d7";
+        font-family: "Font Awesome 6 Free";
+      } */
+    .menu ul {
+        padding: 30px;
+    }
+    .banner {
+        flex-direction: column;
+    }
+    .banner .text {
+        padding: auto;
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .banner .text h1 {
+        font-size: 20px;
+        padding: auto;
+    }
+    .banner .text p {
+        font-size: 15px;
+        margin-top: 3px;
+    }
+    .banner .text button {
+        font-size: 15px;
+        padding: 5px 10px;
+        border: 2px solid white;
+        margin-top: 25px;
+    } 
+    .banner .img {
+        margin-top: 15px;
+        justify-content: center;
+        width: 300px;
+    }
+    .f_text h1 {
+        font-size: 30px;
+    }
+    .features .f_content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .f_content .internal {
+        width: 100%;
+        margin: 34px 28px;
+    }
+    .features {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .f_content .branding {
+        width: 80%;
+    }
+    .f_content .marketing {
+        width: 80%;
+    }
+    .f_content .research {
+        width: 80%;
+    }
+    .f_content .design {
+        width: 80%;
+    }
+    .f_content .internal {
+        width: 80%;
+        margin: 40px auto;
+        text-align: center;
+    }
+    .f_content {
+        margin: 0;
+    }
+    /* ----------------explore----------- */
+    .explore .internal {
+        padding: 46px 0px;
+        text-align: center;
+    }
+    .explore .internal .display-1 h2 {
+        font-size: 25px;
+    }
+    .explore .internal .display-2 p {
+        font-size: 20px;
+    }
+    /* ---------------branding---------- */
+    .brand_ing {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .brand_ing .icon {
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .brand_ing .text {
+        margin: auto;
+        margin-bottom: 30px
+    }
+    .brand_ing .text h1 {
+        margin: auto;
+        margin-bottom: 30px
+    }
+    /* -----------banner2---------- */
+    .banner2 {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .banner2 .text {
+        width: 100%;
+        text-align: center;
+    }
+    .banner2 .text h1 {
+        margin-top: 125px;
+        font-size: 35px;
+    }
+    .banner2 .text p {
+        margin-top: 50px;
+    }
+    .banner2 .icon i {
+        margin-right: 10px;
+        font-size: 18px;
+        align-items: center;
+        height: 18px;
+        width: 18px;
+    }
+    .banner2 .icon strong {
+        font-size: 15px;
+    }
+    .banner2 .img {
+        width: 95%;
+        margin-bottom: 50px;
+    }
+    /* -------------table------- */
+    .table_sec {
+        padding-top: 60px;
+        margin-bottom: 600px;
+    }
+    .table .table_m {
+        width: 100%;
+    }
+    .table .table_m .raw {
+        flex-direction: column;
+        text-align: left;
+    }
+    tbody {
+        width: 100%;
+        height: 100%;
+    }
+    .table h3 {
+        font-size: 32px;
+    }
+    .table p {
+        font-size: 25px;
+    }
+    .table .table_m .tr {
+        padding: 12px 0;
+    }
+    .table .raw .data-3 {
+        font-size: 15px;
+        width: 280px;
+    }
+    .table .tr .data-4 i {
+        margin-left: 0px;
+    }
+    .data-1,
+    .data-2,
+    .data-3 {
+        padding-bottom: 15px;
+    }
+    /* ---------------banner3--------------- */
+    .banner3 {
+        flex-direction: column;
+    }
+    .banner3 .text {
+        width: 100%;
+        text-align: center;
+    }
+    .banner3 .text h1 {
+        font-size: 35px;
+    }
+    .banner3 .text p {
+        font-size: 18px;
+        padding-bottom: 25px;
+    }
+    .banner3 .content {
+        width: 100%;
+    }
+    .banner3 .box {
+        width: 100%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+    }
+    .banner3 .box .text {
+        width: 100%;
+    }
+    /* ------------------imformation----------- */
+    .info_sec {
+        padding: 10px 10px;
+        text-align: center;
+    }
+    .info h4 {
+        font-size: 32px;
+    }
+    .info p {
+        font-size: 18px;
+    }
+    .details_sec .details {
+        font-size: 17.8px;
+        margin: 0 auto;
+        padding: 37px;
+        text-align: center;
+    }
+    .details_sec .details:after {
+        top: 99%
+    }
+    /* -------------image & details---- */
+    .d_img .text {
+        font-size: 25px;
+        margin: 5px 11px 0;
+    }
+    /* ------------out team------ */
+    .our_team .team_details {
+        padding-bottom: 80px;
+    }
+    .our_team .team_details h3 {
+        font-size: 30px;
+        text-align: center;
+        color: white;
+    }
+    .img-content {
+        flex-direction: column;
+    }
+    /* --------------------contact&support------------------  */
+    .c-and-s {
+        display: block;
+        width: 100%;
+    }
+    .c-and-s .contact {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .contact strong {
+        font-size: 32px;
+        margin: 11px 0 22px;
+    }
+    .contact p {
+        font-size: 15px;
+        margin: 11px 0 22px;
+    }
+    .contact::after {
+        content: none;
+    }
+    .contact::before {
+        content: none;
+    }
+    .c-and-s .support {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .support p {
+        font-size: 15px;
+        margin: 11px 0 22px;
+    }
+    .support strong {
+        font-size: 32px;
+        margin: 11px 0 22px;
+    }
+    .support::before {
+        content: none;
+    }
+    .support::after {
+        content: none;
+    }
+    /*  ---------------location-----------------  */
+    .location {
+        flex-direction: column;
+        text-align: center;
+    }
+    .location .icon {
+        width: 100%;
+    }
+    .location .content {
+        width: 100%;
+    }
+    .location i {
+        font-size: 140px;
+    }
+    .location .content h6 {
+        font-size: 18px;
+        margin: 15px 0;
+    }
+    .location .content h5 {
+        font-size: 25px;
+        margin: 15px 0;
+        line-height: 30px;
+    }
+    .location .content p {
+        font-size: 15px;
+    }
+    .iframe {
+        z-index: 3;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        padding: 0px;
+        border-width: 0px;
+        margin: 0px;
+        left: 0px;
+        top: 0px;
+        touch-action: pan-x pan-y;
+    }
+    .footer_content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer_content .paragraph {
+        max-width: 100%;
+        padding: 0;
+    }
+    .footer_content a{
+        color: white;
+        padding: 0px;
+        margin: 0 auto;
+    
+    }
+    .footer_content li{
+        
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+        display: grid;
+        place-items: center;
+    }
+    .footer_content .list1 {
+        max-width: 100%;
+        margin: 15px auto;
+        
+    }
+    .footer_content .list2 {
+        max-width: 100%;
+        margin: 15px auto;
+ 
+    }
+    .footer_content .icon {
+        display: flex;
+        max-width: 100%;
+        text-align: center;
+        margin: 0 AUTO;;
+        padding: 15px;
+        justify-content: center;
+    }
+    .footer_content i {
+        display: flex;
+        font-size: 25px;
+        margin: 0 25px;
+    } 
+    .copyright {
+        flex-direction: column;
+    }
+    .copyright p {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .copyright .form {
+        width: 100%;
+        margin-top: 25px;
+        padding: 0;
+        text-align: center;
+    }
+    .form input {
+        font-size: 18px;
+        width: 100%;
+        margin-top: 12px;
+    }
+    .email {
+        display: inline-flex;
+        width: 100%;
+    }
+    .email a i{
+        font-size: 25px;
+        margin: 0;
+    }
+}
