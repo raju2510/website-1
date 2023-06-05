@@ -7,14 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
     <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
-    
     <link rel="stylesheet" href="https://kit.fontawesome.com/6de09cf687.css" crossorigin="anonymous">
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -24,8 +27,7 @@
                 <section class="logo">
                     <a href="index.html">ResearchM4</a>
                 </section>
-                <section class="menu " id="navlinks">
-                    <i class="fa fa-clone" onclick="hidemanu()"></i>
+                <section class="menu">
                     <ul>
                         <li><a href="#">Work</a></li>
                         <li><a href="#">Services</a></li>
@@ -33,7 +35,9 @@
                         <li><a href="#">contacts</a></li>
                     </ul>
                 </section>
-                <i class="fa fa-bars " onclick="showmenu()"></i>
+                <div class="toggle-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
             </nav>
         </div>
     </header>
@@ -48,7 +52,7 @@
                     <button>Get Started</button>
                 </div>
                 <div class="img">
-                    <img src="image/banner.jpg" alt="banner" width="80%">
+                    <img src="image/banner.jpg" alt="banner" width="100%">
                 </div>
             </div>
         </div>
@@ -61,45 +65,35 @@
             <h1>Our Features</h1>
         </div>
         <div class="f_content">
-            <div class="marketing">
-                <div class="internal">
-                    <i class="fa-sharp fa-solid fa-dollar-sign"></i>
-                    <h2>Marketing</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="#">Read More</a>
-                </div>
+            <div class="marketing internal">
+                <i class="fa-sharp fa-solid fa-dollar-sign"></i>
+                <h2>Marketing</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#">Read More</a>
             </div>
-            <div class="design">
-                <div class="internal">
-                    <i class="fa-solid fa-palette"></i>
-                    <h2>Design</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="#">Read More</a>
-                </div>
+            <div class="design internal">
+                <i class="fa-solid fa-palette"></i>
+                <h2>Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#">Read More</a>
             </div>
-            <div class="research">
-                <div class="internal">
-                    <i class="fa-solid fa-images"></i>
-                    <h2>Research</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="#">Read More</a>
-                </div>
+            <div class="research internal">
+                <i class="fa-solid fa-images"></i>
+                <h2>Research</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#">Read More</a>
             </div>
-            <div class="branding">
-                <div class="internal">
-                    <i class="fa-solid fa-rocket"></i>
-                    <h2>Branding</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="#">Read More</a>
-                </div>
+            <div class="branding internal">
+                <i class="fa-solid fa-rocket"></i>
+                <h2>Branding</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#">Read More</a>
             </div>
-            <div class="marketing">
-                <div class="internal">
-                    <i class="fa-solid fa-desktop"></i>
-                    <h2>Marketing</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="#">Read More</a>
-                </div>
+            <div class="marketing internal">
+                <i class="fa-solid fa-desktop"></i>
+                <h2>Marketing</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#">Read More</a>
             </div>
         </div>
     </section>
@@ -211,10 +205,10 @@
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                     Aliquam non tellus id elit <br>
                                     commodo ullamcorper sed quis mi. </div>
-                            </div>
-                            <div class="data-4">
-                                <a href="#"><i class="fa-solid fa-angle-right" width="25px" hight="25px"
-                                        border-radius="50%" background-color="#22A5E5"></i></a>
+                                <!-- <div class="data-4">
+                                    <a href="#"><i class="fa-solid fa-angle-right" width="25px" hight="25px"
+                                            border-radius="50%" background-color="#22A5E5"></i></a>
+                                </div> -->
                             </div>
                         </div>
                         <div class="tr">
@@ -226,9 +220,9 @@
                                     Aliquam non tellus id elit <br>
                                     commodo ullamcorper sed quis mi.
                                 </div>
-                            </div>
-                            <div class="data-4">
-                                <a href="#"><i class="fa-solid fa-angle-right"></i></a>
+                                <!-- <div class="data-4">
+                                    <a href="#"><i class="fa-solid fa-angle-right"></i></a>
+                                </div> -->
                             </div>
                         </div>
                         <div class="tr">
@@ -240,9 +234,9 @@
                                     Aliquam non tellus id elit <br>
                                     commodo ullamcorper sed quis mi.
                                 </div>
-                            </div>
-                            <div class="data-4">
-                                <a href="#"><i class="fa-solid fa-angle-right"></i></a>
+                                <!-- <div class="data-4">
+                                    <a href="#"><i class="fa-solid fa-angle-right"></i></a>
+                                </div>-->
                             </div>
                         </div>
                         <div class="tr">
@@ -254,10 +248,10 @@
                                     Aliquam non tellus id elit <br>
                                     commodo ullamcorper sed quis mi.
                                 </div>
-                            </div>
-                            <div class="data-4">
-                                <a href="#">
-                                    <i class="fa-solid fa-angle-right"></i></a>
+                                <!-- <div class="data-4">
+                                    <a href="#">
+                                        <i class="fa-solid fa-angle-right"></i></a>
+                                </div> -->
                             </div>
                         </div>
                         <div class="tr">
@@ -269,9 +263,9 @@
                                     Aliquam non tellus id elit <br>
                                     commodo ullamcorper sed quis mi.
                                 </div>
-                            </div>
-                            <div class="data-4">
-                                <a href="#"><i class="fa-solid fa-angle-right"></i></a>
+                                <!-- <div class="data-4">
+                                    <a href="#"><i class="fa-solid fa-angle-right"></i></a>
+                                </div> -->
                             </div>
                         </div>
                     </tbody>
@@ -518,39 +512,44 @@
                         <i class="fa-brands fa-vimeo-v"></i>
                         <i class="fa-brands fa-skype"></i>
                     </div>
-                </div>
-                <div class="copyright">
-                    <p> &#169 Copyright 2025 Mobirise</p>
-                    <div class="form">
-                        <h5>SUBSCRIBE FOR UPDATES</h5>
-                        <div class="email">
-                            <input type="email" placeholder="text@gmail.com">
-                            <a href="#"><i class="fa-solid fa-arrow-right-long"></i></a>
+
+                    <div class="copyright">
+                        <p> &#169 Copyright 2025 Mobirise</p>
+                        <div class="form">
+                            <h5>SUBSCRIBE FOR UPDATES</h5>
+                            <div class="email">
+                                <input type="email" placeholder="text@gmail.com">
+                                <a href="#"><i class="fa-solid fa-arrow-right-long"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+    <!-- <hr> -->
+    <div class="bg">
+        <marquee scrollamount="10" class="wrapper">
+            <div class="icon-1 wrapper">
+                <a><i class="fa-brands fa-facebook-f"></i>Facebook</a>
+                <a><i class="fa-brands fa-twitter"></i>Twitter</a>
+                <a><i class="fa-brands fa-skype"></i>Skype</a>
+                <a><i class="fa-brands fa-vimeo-v"></i>Vimio</a>
+                <a><i class="fa-brands fa-twitter"></i>Twitter</a>
+            </div>
+        </marquee>
+    </div>
     <script src="https://kit.fontawesome.com/6de09cf687.js" crossorigin="anonymous"></script>
     <!-- --------------javascript for toggalmenu--------- -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script>
+        $(".toggle-menu").click(function () {
+            $(".menu").toggleClass("active");
+        });
+    </script>
 
-    var onclick = document.getElementById("navlinks");
 
-    function showmenu(){
-        navlinks.style.top="0px";
-    }
-
-    function hidemenu(){
-        navlinks.style.display="none";
-    }
-</script>
-    <!-- <script>
-    function showmenu() { 
-      document.getElementById("demo").innerHTML = "Hello JavaScript!";
-    }
-    </script>   -->
 </body>
 
 </html>
